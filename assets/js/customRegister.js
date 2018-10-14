@@ -40,10 +40,10 @@
   firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
      
-     window.location.href = "_football_shop-account.html#header";
+     window.location.href = "_football_shop-account.php";
     } else {
       // No user is signed in.
-     window.location.href = "_football_shop-registra.html#header";
+     window.location.href = "_football_shop-registra.php";
     }
   });
  }());

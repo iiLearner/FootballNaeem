@@ -1,9 +1,6 @@
  <?php 
     include('header.php'); 
 ?>
-<!DOCTYPE html>
-<html lang="zxx">
-<body>
     <!-- Header / End -->
   
 
@@ -90,7 +87,6 @@
 ?>
     <!-- Footer / End -->
     
-  </div>
 
   <!-- Javascript Files
   ================================================== -->
@@ -98,14 +94,22 @@
 <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
    <script src="assets/js/custom1.js"></script>
   <script src="assets/js/custom2.js"></script>
+
+   <!-- Template JS -->
+  <script src="assets/js/init.js"></script>
+<!-- Core JS -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/js/core-min.js"></script>
+  <!-- Vendor JS -->
+  <script src="assets/vendor/twitter/jquery.twitter.js"></script>
+  <script src="assets/vendor/jquery-duotone/jquery.duotone.min.js"></script>
+  <script src="assets/vendor/marquee/jquery.marquee.min.js"></script>
+  <!-- Template JS -->
+  <script src="assets/js/init.js"></script>
+
   
   
   </body>
   </html>
 
-
-
-  
-  </body>
-  </html>
   

@@ -73,7 +73,7 @@
     include('footer.php'); 
 ?>
     <!-- Footer / End -->
-  </div>
+ 
   <!-- Javascript Files
   ================================================== -->
   <script src="assets/js/customRegister.js"></script>
@@ -87,6 +87,5 @@
   <script src="assets/js/init.js"></script> 
   </body>
   </html> 
-  </body>
-  </html>
+  
   
