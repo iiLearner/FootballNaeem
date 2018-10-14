@@ -1,0 +1,18 @@
+/*
+File Name: 		custom.css
+Description:  You can add your custom CSS here and it will overwrite template styles
+*/
+.posts__thumb1 img{
+	width: 100%;
+	height: 600px;
+
+}
+
+.alert{
+	text-align: center;
+	display: none;
+}
+.alertRegister{
+	text-align: center;;
+	display: none;
+}
