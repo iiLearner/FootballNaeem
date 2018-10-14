@@ -15,8 +15,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Your<span class="highlight">Wishlist</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html#header">Home</a></li>
-              <li><a href="_football_shop-grid.html#header">Shop</a></li>
+              <li><a href="_football_index.php#header">Home</a></li>
+              <li><a href="_football_shop-grid.php#header">Shop</a></li>
               <li class="active">Your Wishlist</li>
             </ol>
           </div>
@@ -66,7 +66,7 @@
 
               <header class="product__header">
                 <div class="product__header-inner">
-                  <h2 class="product__title"><a href="shop-product.html#header">Atlantic Sneaker</a></h2>
+                  <h2 class="product__title"><a href="shop-product.php#header">Atlantic Sneaker</a></h2>
                   <span class="product__category">Sneakers</span>
                   <div class="product__ratings">
                     <i class="fa fa-star"></i>
@@ -118,7 +118,7 @@
 
               <header class="product__header">
                 <div class="product__header-inner">
-                  <h2 class="product__title"><a href="shop-product.html#header">Aquarium Sneaker</a></h2>
+                  <h2 class="product__title"><a href="shop-product.php#header">Aquarium Sneaker</a></h2>
                   <span class="product__category">Sneakers</span>
                   <div class="product__ratings">
                     <i class="fa fa-star"></i>
@@ -169,7 +169,7 @@
 
               <header class="product__header">
                 <div class="product__header-inner">
-                  <h2 class="product__title"><a href="shop-product.html#header">Carbon Fitted Cap</a></h2>
+                  <h2 class="product__title"><a href="shop-product.php#header">Carbon Fitted Cap</a></h2>
                   <span class="product__category">Hats and Caps</span>
                   <div class="product__ratings">
                     <i class="fa fa-star"></i>

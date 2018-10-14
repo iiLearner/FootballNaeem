@@ -14,7 +14,7 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Staff <span class="highlight">Member</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
+              <li><a href="_football_index.php">Home</a></li>
               <li class="active">Staff Member</li>
             </ol>
           </div>
@@ -105,7 +105,7 @@
             <div class="card card--clean">
               <header class="card__header card__header--has-btn">
                 <h4>Staff Related News</h4>
-                <a href="blog-1.html" class="btn btn-default btn-outline btn-xs card-header__button">See All Related News</a>
+                <a href="blog-1.php" class="btn btn-default btn-outline btn-xs card-header__button">See All Related News</a>
               </header>
               <div class="card__content">
 

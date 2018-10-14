@@ -9,7 +9,7 @@
           <div class="footer-info__inner">
             <!-- Footer Logo -->
             <div class="footer-logo footer-logo--has-txt">
-              <a href="_football_index.html#">
+              <a href="_football_index.php#">
                 <img src="assets/images/football/logo-footer.png" srcset="assets/images/football/logo-footer@2x.png 2x" alt="Alchemists" class="footer-logo__img">
                 <div class="footer-logo__heading">
                   <h5 class="footer-logo__txt">Camerino Sports Center</h5>
@@ -62,7 +62,7 @@
       <div class="footer-secondary">
         <div class="container">
               <div class="col-md-4">
-                <div class="footer-copyright"><a href="_football_index.html#header">Camerino Sports Center</a> 2018 &nbsp; | &nbsp; All Rights Reserved</div>
+                <div class="footer-copyright"><a href="_football_index.php#header">Camerino Sports Center</a> 2018 &nbsp; | &nbsp; All Rights Reserved</div>
               </div>
         </div>
       </div>

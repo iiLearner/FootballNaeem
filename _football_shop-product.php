@@ -17,8 +17,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Product <span class="highlight">Details</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_shop-grid.html">Shop</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_shop-grid.php">Shop</a></li>
               <li class="active">Product</li>
             </ol>
           </div>
@@ -134,7 +134,7 @@
               </form>
 
               <footer class="product__footer">
-                <a href="_football_shop-cart.html" class="btn btn-primary-inverse btn-icon product__add-to-cart"><i class="fa fa-plus"></i> Add to Cart</a>
+                <a href="_football_shop-cart.php" class="btn btn-primary-inverse btn-icon product__add-to-cart"><i class="fa fa-plus"></i> Add to Cart</a>
                 <a href="#" class="btn btn-default btn-outline btn-single-icon btn-circle product__wish-fab"><i class="icon-heart"></i></a>
               </footer>
             </div>
@@ -441,7 +441,7 @@
         
                   <header class="product__header">
                     <div class="product__header-inner">
-                      <h2 class="product__title"><a href="shop-product.html">Sundown Sneaker</a></h2>
+                      <h2 class="product__title"><a href="shop-product.php">Sundown Sneaker</a></h2>
                       <span class="product__category">Sneakers</span>
                       <div class="product__ratings">
                         <i class="fa fa-star"></i>
@@ -455,7 +455,7 @@
                   </header>
         
                   <footer class="product__footer">
-                    <a href="_football_shop-cart.html" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
+                    <a href="_football_shop-cart.php" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
                     <a href="#" class="btn btn-default btn-single-icon product__wish btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="icon-heart"></i></a>
                     <a href="#" class="btn btn-primary btn-single-icon product__view btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="10890"><i class="icon-eye"></i></a>
                   </footer>
@@ -494,7 +494,7 @@
         
                   <header class="product__header">
                     <div class="product__header-inner">
-                      <h2 class="product__title"><a href="shop-product.html">Atlantic Sneaker</a></h2>
+                      <h2 class="product__title"><a href="shop-product.php">Atlantic Sneaker</a></h2>
                       <span class="product__category">Sneakers</span>
                       <div class="product__ratings">
                         <i class="fa fa-star"></i>
@@ -508,7 +508,7 @@
                   </header>
         
                   <footer class="product__footer">
-                    <a href="_football_shop-cart.html" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
+                    <a href="_football_shop-cart.php" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
                     <a href="#" class="btn btn-default btn-single-icon product__wish btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="icon-heart"></i></a>
                     <a href="#" class="btn btn-primary btn-single-icon product__view btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="10890"><i class="icon-eye"></i></a>
                   </footer>
@@ -548,7 +548,7 @@
         
                   <header class="product__header">
                     <div class="product__header-inner">
-                      <h2 class="product__title"><a href="shop-product.html">Aquarium Sneaker</a></h2>
+                      <h2 class="product__title"><a href="shop-product.php">Aquarium Sneaker</a></h2>
                       <span class="product__category">Sneakers</span>
                       <div class="product__ratings">
                         <i class="fa fa-star"></i>
@@ -562,7 +562,7 @@
                   </header>
         
                   <footer class="product__footer">
-                    <a href="_football_shop-cart.html" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
+                    <a href="_football_shop-cart.php" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
                     <a href="#" class="btn btn-default btn-single-icon product__wish btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="icon-heart"></i></a>
                     <a href="#" class="btn btn-primary btn-single-icon product__view btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="10890"><i class="icon-eye"></i></a>
                   </footer>
@@ -601,7 +601,7 @@
         
                   <header class="product__header">
                     <div class="product__header-inner">
-                      <h2 class="product__title"><a href="shop-product.html">Crimson Fitted Hat</a></h2>
+                      <h2 class="product__title"><a href="shop-product.php">Crimson Fitted Hat</a></h2>
                       <span class="product__category">Hats and Caps</span>
                       <div class="product__ratings">
                         <i class="fa fa-star"></i>
@@ -615,7 +615,7 @@
                   </header>
         
                   <footer class="product__footer">
-                    <a href="_football_shop-cart.html" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
+                    <a href="_football_shop-cart.php" class="btn btn-primary-inverse btn-single-icon btn-circle" data-toggle="tooltip" data-placement="top" title="Add to cart"><i class="fa fa-plus"></i></a>
                     <a href="#" class="btn btn-default btn-single-icon product__wish btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="Add to Wishlist"><i class="icon-heart"></i></a>
                     <a href="#" class="btn btn-primary btn-single-icon product__view btn-outline btn-circle" data-toggle="tooltip" data-placement="top" title="10890"><i class="icon-eye"></i></a>
                   </footer>

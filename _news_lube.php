@@ -16,8 +16,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Continua il trionfo della<span class="highlight">Lube</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_blog-1.html">News</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_blog-1.php">News</a></li>
               <li class="active">Complete News</li>
             </ol>
           </div>
@@ -167,7 +167,7 @@
                           <div class="posts__cat">
                             <span class="label posts__cat-label">The League</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_milan.html#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
+                          <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
                           <time datetime="2017-08-23" class="posts__date">May 29, 2018</time>
                         </div>
                       </li>
@@ -240,7 +240,7 @@
                       <div class="posts__cat">
                         <span class="label posts__cat-label">The Team</span>
                       </div>
-                      <h6 class="posts__title"><a href="_news_juventus.html#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
+                      <h6 class="posts__title"><a href="_news_juventus.php#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
                       <time datetime="2018-05-26" class="posts__date">May 26, 2018 </time>       
                     </div>
                   </li>
@@ -249,7 +249,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Yoga</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_yoga.html#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
+                            <h6 class="posts__title"><a href="_news_yoga.php#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
                             <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
                           </div>
                         </li>
@@ -258,7 +258,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">MotoGp</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_motogp.html#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_motogp.php#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
                             <time datetime="2015-05-28" class="posts__date">May 28, 2018</time>
                            
                           </div>
@@ -268,7 +268,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_milan.html#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
+                            <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
                             <time datetime="2017-08-23" class="posts__date">May 29, 2018</time>
                             
                           </div>
@@ -278,7 +278,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Mondiali</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_mondiali_calcio.html#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
+                            <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
                             <time datetime="2017-08-23" class="posts__date">June 06, 2018</time>
                            
                           </div>
@@ -325,7 +325,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Yoga</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_yoga.html#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
+                            <h6 class="posts__title"><a href="_news_yoga.php#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
                             <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
                           </div>
                         </li>
@@ -334,7 +334,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Nuoto</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_swimming.html#header">Federica Pelegrini diventa nuova sensazione del nuoto Italiano"</a></h6>
+                            <h6 class="posts__title"><a href="_news_swimming.php#header">Federica Pelegrini diventa nuova sensazione del nuoto Italiano"</a></h6>
                             <time datetime="2018-04-26" class="posts__date">April 26, 2018</time>
                         
                           </div>
@@ -344,7 +344,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_nba.html#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_nba.php#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
                             <time datetime="2018-06-08" class="posts__date">June 08, 2018</time>
                            
                           </div>
@@ -354,7 +354,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Palestra</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_palestra.html#header">La Palestra di Cus Camerino dispone di nuova attrezzatura di qualità</a></h6>
+                            <h6 class="posts__title"><a href="_news_palestra.php#header">La Palestra di Cus Camerino dispone di nuova attrezzatura di qualità</a></h6>
                             <time datetime="2018-06-10"  class="posts__date">June 10, 2018</time>
                             
                           </div>
@@ -369,7 +369,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">MotoGp</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_motogp.html#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_motogp.php#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
                             <time datetime="2015-05-28" class="posts__date">May 28, 2018</time>
                            
                           </div>
@@ -379,7 +379,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Mondiali</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_mondiali_calcio.html#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
+                            <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
                             <time datetime="2017-08-23" class="posts__date">June 06, 2018</time>
                            
                           </div>
@@ -389,7 +389,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_milan.html#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
+                            <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
                             <time datetime="2017-08-23" class="posts__date">May 29, 2018</time>
                             
                           </div>
@@ -399,7 +399,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_lube.html#header">Continua Il Trionfo Della Squadra La Lube</a></h6>
+                            <h6 class="posts__title"><a href="_news_lube.php#header">Continua Il Trionfo Della Squadra La Lube</a></h6>
                             <time datetime="2018-05-26" class="posts__date">May 26, 2018</time>
                            
                           </div>
@@ -414,7 +414,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_juventus.html#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
+                            <h6 class="posts__title"><a href="_news_juventus.php#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
                             <time datetime="2018-05-26" class="posts__date">May 26, 2018 </time>
                            
                           </div>
@@ -424,7 +424,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Yoga</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_yoga.html#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
+                            <h6 class="posts__title"><a href="_news_yoga.php#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
                             <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
                           </div>
                         </li>
@@ -433,7 +433,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">MotoGp</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_motogp.html#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_motogp.php#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
                             <time datetime="2015-05-28" class="posts__date">May 28, 2018</time>
                            
                           </div>
@@ -443,7 +443,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_nba.html#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_nba.php#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
                             <time datetime="2018-06-08" class="posts__date">June 08, 2018</time>
                            
                           </div>

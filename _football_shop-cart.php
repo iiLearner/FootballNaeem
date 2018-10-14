@@ -14,8 +14,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Shopping <span class="highlight">Cart</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_shop-grid.html">Shop</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_shop-grid.php">Shop</a></li>
               <li class="active">Shopping Cart</li>
             </ol>
           </div>
@@ -54,11 +54,11 @@
                       <tr>
                         <td class="product__photo">
                           <figure class="product__thumb">
-                            <a href="_football_shop-product.html#header"><img src="assets/images/samples/cart-sm-1.jpg" alt=""></a>
+                            <a href="_football_shop-product.php#header"><img src="assets/images/samples/cart-sm-1.jpg" alt=""></a>
                           </figure>
                         </td>
                         <td class="product__info">
-                          <h5 class="product__name"><a href="_football_shop-product.html#header">Sundown Sneaker</a></h5>
+                          <h5 class="product__name"><a href="_football_shop-product.php#header">Sundown Sneaker</a></h5>
                           <span class="product__cat">Sneakers</span>
                           <div class="product__ratings">
                             <i class="fa fa-star"></i>
@@ -91,12 +91,12 @@
                       <tr>
                         <td class="product__photo">
                           <figure class="product__thumb">
-                            <a href="_football_shop-product.html#header"><img src="assets/images/samples/cart-sm-4.jpg" alt=""></a>
+                            <a href="_football_shop-product.php#header"><img src="assets/images/samples/cart-sm-4.jpg" alt=""></a>
                           </figure>
                         </td>
                         <td class="product__info">
                           <span class="product__cat">Sneakers</span>
-                          <h5 class="product__name"><a href="_football_shop-product.html#header">Atlantic Sneaker</a></h5>
+                          <h5 class="product__name"><a href="_football_shop-product.php#header">Atlantic Sneaker</a></h5>
                           <div class="product__ratings">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -128,12 +128,12 @@
                       <tr>
                         <td class="product__photo">
                           <figure class="product__thumb">
-                            <a href="_football_shop-product.html#header"><img src="assets/images/samples/cart-sm-2.jpg" alt=""></a>
+                            <a href="_football_shop-product.php#header"><img src="assets/images/samples/cart-sm-2.jpg" alt=""></a>
                           </figure>
                         </td>
                         <td class="product__info">
                           <span class="product__cat">Sneakers</span>
-                          <h5 class="product__name"><a href="_football_shop-product.html#header">Aquarium Sneaker</a></h5>
+                          <h5 class="product__name"><a href="_football_shop-product.php#header">Aquarium Sneaker</a></h5>
                           <div class="product__ratings">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>
@@ -165,12 +165,12 @@
                       <tr>
                         <td class="product__photo">
                           <figure class="product__thumb">
-                            <a href="_football_shop-product.html#header"><img src="assets/images/samples/cart-sm-3.jpg" alt=""></a>
+                            <a href="_football_shop-product.php#header"><img src="assets/images/samples/cart-sm-3.jpg" alt=""></a>
                           </figure>
                         </td>
                         <td class="product__info">
                           <span class="product__cat">Shirts</span>
-                          <h5 class="product__name"><a href="_football_shop-product.html#header">The Sporting Shirt</a></h5>
+                          <h5 class="product__name"><a href="_football_shop-product.php#header">The Sporting Shirt</a></h5>
                           <div class="product__ratings">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>

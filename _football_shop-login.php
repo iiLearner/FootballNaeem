@@ -15,8 +15,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title"><span class="highlight">Login</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_shop-list.html">Shop</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_shop-list.php">Shop</a></li>
               <li class="active">Login</li>
             </ol>
           </div>
@@ -69,7 +69,7 @@
                     </div>
                   </div>
                     <div class="form-group form-group--sm" style="padding-top: 10px;">
-                    <button class="btn btn-primary-inverse btn-lg btn-block" onclick="location.href='_football_shop-registra.html#header'" onclick="login()" > Register Your Account</button>
+                    <button class="btn btn-primary-inverse btn-lg btn-block" onclick="location.href='_football_shop-registra.php#header'" onclick="login()" > Register Your Account</button>
                     </div>
                 <!-- Login Form / End -->
 

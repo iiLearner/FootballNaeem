@@ -15,9 +15,9 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Cart <span class="highlight">Checkout</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_shop-list.html">Shop</a></li>
-              <li><a href="_football_shop-cart.html">Shopping Cart</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_shop-list.php">Shop</a></li>
+              <li><a href="_football_shop-cart.php">Shopping Cart</a></li>
               <li class="active">Checkout</li>
             </ol>
           </div>

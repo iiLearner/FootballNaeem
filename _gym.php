@@ -181,15 +181,15 @@
       <div class="marquee" data-duration="18000" data-gap="10" data-duplicated="true" >
         <ul class="posts posts--inline">
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 1</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 1</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 2"</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 2"</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 1</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 1</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
         </ul>
@@ -220,7 +220,7 @@
                   <div class="col-md-8">
 
                     <div class="posts__item posts__item--desc-center posts__item--category-1">
-                      <a href="_news_juventus.html#header" class="posts__link-wrapper">
+                      <a href="_news_juventus.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide30.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #f92552">
                         </figure>
@@ -244,7 +244,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-3">
-                      <a href="_news_lube.html#header" class="posts__link-wrapper">
+                      <a href="_news_lube.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide5-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #0fe3ab">
                         </figure>
@@ -264,7 +264,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-2">
-                      <a href="_news_nba.html#header" class="posts__link-wrapper">
+                      <a href="_news_nba.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide25-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #9e69ee">
                         </figure>
@@ -290,7 +290,7 @@
                 <div class="row">
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-3">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide3-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #0fe3ab">
                         </figure>
@@ -310,7 +310,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-2">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide1-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #9e69ee">
                         </figure>
@@ -330,7 +330,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-1">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide18-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #f92552">
                         </figure>
@@ -350,7 +350,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-2">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide2-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #9e69ee">
                         </figure>
@@ -370,7 +370,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-1">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide10-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #f92552">
                         </figure>
@@ -390,7 +390,7 @@
                   </div>
                   <div class="col-sm-6 col-md-4">
                     <div class="posts__item posts__item--desc-left posts__item--category-3">
-                      <a href="_news_post.html#header" class="posts__link-wrapper">
+                      <a href="_news_post.php#header" class="posts__link-wrapper">
                         <figure class="posts__thumb">
                           <img src="assets/images/football/samples/post-slide28-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #0fe3ab">
                         </figure>
@@ -427,7 +427,7 @@
             <div class="card card--clean mb-0">
               <header class="card__header card__header--has-btn">
                 <h4>Latest News</h4>
-                <a href="__news_post.html#header.html#header" class="btn btn-default btn-xs card-header__button">See All Posts</a>
+                <a href="__news_post.php#header.php#header" class="btn btn-default btn-xs card-header__button">See All Posts</a>
               </header>
               <div class="card__content">
                 <!-- Posts Grid -->
@@ -439,12 +439,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">The Team</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/football/samples/post-img29.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/football/samples/post-img29.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-09-14" class="posts__date">September 14th, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">The Alchemists women division started training for next season</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">The Alchemists women division started training for next season</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>
@@ -458,12 +458,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">The League</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/football/samples/post-img28.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/football/samples/post-img28.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-08-23" class="posts__date">August 23rd, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">The Clovers defense must reinvent itselft without Adam Howlett</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">The Clovers defense must reinvent itselft without Adam Howlett</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>
@@ -487,7 +487,7 @@
                       <div class="posts__cat">
                         <span class="label posts__cat-label">The Team</span>
                       </div>
-                      <h6 class="posts__title"><a href="_news_post.html#header">Take a look at the <span class="text-success">brand new helmets</span> for next season</a></h6>
+                      <h6 class="posts__title"><a href="_news_post.php#header">Take a look at the <span class="text-success">brand new helmets</span> for next season</a></h6>
                       <time datetime="2017-08-12" class="posts__date">August 12th, 2017</time>
                       <div class="posts__excerpt">
                         Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor ut labore.
@@ -529,7 +529,7 @@
                       <div class="posts__cat">
                         <span class="label posts__cat-label">The Team</span>
                       </div>
-                      <h6 class="posts__title"><a href="_news_juventus.html#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
+                      <h6 class="posts__title"><a href="_news_juventus.php#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
                       <time datetime="2018-05-26" class="posts__date">May 26, 2018 </time>       
                     </div>
                   </li>
@@ -538,7 +538,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Yoga</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_yoga.html#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
+                            <h6 class="posts__title"><a href="_news_yoga.php#header">A Cus Camerino si riprendono le Lezioni di Yoga</a></h6>
                             <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
                           </div>
                         </li>
@@ -547,7 +547,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">MotoGp</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_motogp.html#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_motogp.php#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
                             <time datetime="2015-05-28" class="posts__date">May 28, 2018</time>
                            
                           </div>
@@ -557,7 +557,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">The Team</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_milan.html#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
+                            <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
                             <time datetime="2017-08-23" class="posts__date">May 29, 2018</time>
                             
                           </div>
@@ -567,7 +567,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Mondiali</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_mondiali_calcio.html#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
+                            <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
                             <time datetime="2017-08-23" class="posts__date">June 06, 2018</time>
                            
                           </div>

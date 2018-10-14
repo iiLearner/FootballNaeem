@@ -16,7 +16,7 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title"><span class="highlight">Iscrizione</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a>Corsi</li>
+              <li><a href="_football_index.php">Home</a>Corsi</li>
               <li class="active">Iscrizione</li>
             </ol>
           </div>

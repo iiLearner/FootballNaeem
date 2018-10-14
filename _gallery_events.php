@@ -16,8 +16,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title"><span class="highlight">Events Gallery</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html#header">Home</a></li>
-              <li><a href="_football_shop-grid.html#header">Events</a></li>
+              <li><a href="_football_index.php#header">Home</a></li>
+              <li><a href="_football_shop-grid.php#header">Events</a></li>
               <li class="active">Gallery</li>
             </ol>
           </div>
@@ -35,7 +35,7 @@
         <!-- Gallery -->
         <div class="gallery row">
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">Juventus Festa Scudetto 2018</h4>
@@ -52,7 +52,7 @@
             </a>
           </div>
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">Nuova Attrezzatura a Camerino</h4>
@@ -69,7 +69,7 @@
             </a>
           </div>
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">Lezioni Yoga Camerino</h4>
@@ -86,7 +86,7 @@
             </a>
           </div>
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">James Le Bron</h4>
@@ -103,7 +103,7 @@
             </a>
           </div>
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">MotoGp 2018</h4>
@@ -120,7 +120,7 @@
             </a>
           </div>
           <div class="gallery__item col-xs-6 col-sm-4">
-            <a href="_gallery-album.html#header" class="gallery__item-inner card">
+            <a href="_gallery-album.php#header" class="gallery__item-inner card">
               <header class="gallery__header card__header">
                 <div class="gallery__details">
                   <h4 class="gallery__name">Spagna vince Prima Partita ai Mondiali</h4>

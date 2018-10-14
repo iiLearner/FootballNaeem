@@ -16,7 +16,7 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title"> <span class="highlight">Yoga</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
+              <li><a href="_football_index.php">Home</a></li>
               <li class="active">Corsi</li>
             </ol>
           </div>
@@ -63,7 +63,7 @@
                     <td class="team-schedule__time">21:00</td>
                     <td class="team-schedule__compet">West Bay League 2018/19</td>
                     <td class="team-schedule__venue">Cus Camerino</td>
-                    <td class="team-schedule__tickets"><a href="_course_iscrizione.html#header" class="btn btn-xs btn-default-alt btn-block">Iscriviti</a></td>
+                    <td class="team-schedule__tickets"><a href="_course_iscrizione.php#header" class="btn btn-xs btn-default-alt btn-block">Iscriviti</a></td>
                   </tr>
                   <tr>
                     <td class="team-schedule__date">11/29/2018</td>
@@ -80,7 +80,7 @@
                     <td class="team-schedule__time">21:30</td>
                     <td class="team-schedule__compet">West League 2018/19</td>
                     <td class="team-schedule__venue">Alchemists Stadium</td>
-                    <td class="team-schedule__tickets"><a href="_course_iscrizione.html#header" class="btn btn-xs btn-default-alt btn-block disabled">Esaurito</a></td>
+                    <td class="team-schedule__tickets"><a href="_course_iscrizione.php#header" class="btn btn-xs btn-default-alt btn-block disabled">Esaurito</a></td>
                   </tr>
                   <tr>
                     <td class="team-schedule__date">11/01/2019</td>
@@ -97,7 +97,7 @@
                     <td class="team-schedule__time">16:00</td>
                     <td class="team-schedule__compet">West League 2019</td>
                     <td class="team-schedule__venue">Scalding Rock Stadium</td>
-                    <td class="team-schedule__tickets"><a href="_course_iscrizione.html#header" class="btn btn-xs btn-default-alt btn-block">Iscriviti</a></td>
+                    <td class="team-schedule__tickets"><a href="_course_iscrizione.php#header" class="btn btn-xs btn-default-alt btn-block">Iscriviti</a></td>
                   </tr>   
                 </tbody>
               </table>

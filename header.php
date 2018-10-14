@@ -58,7 +58,7 @@
     <!-- Header Mobile -->
     <div class="header-mobile clearfix" id="header-mobile">
       <div class="header-mobile__logo">
-        <a href="_football_index.html"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
+        <a href="_football_index.php"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
       </div>
       <div class="header-mobile__inner">
         <a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>
@@ -75,11 +75,11 @@
   
           <!-- Account Navigation -->
           <ul class="nav-account">
-            <li class="nav-account__item"><a href="_football_shop-account.html#header">Your Account</a></li>
-            <li class="nav-account__item nav-account__item--wishlist"><a href="_football_shop-wishlist.html#header">Wishlist <span class="highlight">8</span></a></li>
+            <li class="nav-account__item"><a href="_football_shop-account.php#header">Your Account</a></li>
+            <li class="nav-account__item nav-account__item--wishlist"><a href="_football_shop-wishlist.php#header">Wishlist <span class="highlight">8</span></a></li>
             <li class="nav-account__item"><a href="#">Currency: <span class="highlight">EUR</span></a></li>
             <li class="nav-account__item"><a href="#">Language: <span class="highlight">EN</span></a></li>
-            <li class="nav-account__item nav-account__item--logout"><a href="_football_shop-login.html#header">Logout</a></li>
+            <li class="nav-account__item nav-account__item--logout"><a href="_football_shop-login.php#header">Logout</a></li>
           </ul>
           <!-- Account Navigation / End -->
   
@@ -124,12 +124,12 @@
               <ul class="header-cart">
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.html#header">
+                    <a href="_football_shop-product.php#header">
                       <img src="assets/images/samples/cart-sm-1.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.html#header">Sundown Sneaker</a></h5>
+                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Sundown Sneaker</a></h5>
                     <span class="header-cart__product-cat">Sneakers</span>
                     <div class="header-cart__product-ratings">
                       <i class="fa fa-star"></i>
@@ -146,12 +146,12 @@
                 </li>
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.html#header">
+                    <a href="_football_shop-product.php#header">
                       <img src="assets/images/samples/cart-sm-2.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.html#header">Atlantik Sneaker</a></h5>
+                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Atlantik Sneaker</a></h5>
                     <span class="header-cart__product-cat">Sneakers</span>
                     <div class="header-cart__product-ratings">
                       <i class="fa fa-star"></i>
@@ -168,12 +168,12 @@
                 </li>
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.html#header">
+                    <a href="_football_shop-product.php#header">
                       <img src="assets/images/samples/cart-sm-2.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.html#header">Aquarium Sneaker</a></h5>
+                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Aquarium Sneaker</a></h5>
                     <span class="header-cart__product-cat">Sneakers</span>
                     <div class="header-cart__product-ratings">
                       <i class="fa fa-star"></i>
@@ -193,8 +193,8 @@
                   <span class="header-cart__subtotal-sum">€84.00</span>
                 </li>
                 <li class="header-cart__item header-cart__item--action">
-                  <a href="_football_shop-cart.html#header" class="btn btn-default btn-block">Go to Cart</a>
-                  <a href="_football_shop-checkout.html#header" class="btn btn-primary-inverse btn-block">Checkout</a>
+                  <a href="_football_shop-cart.php#header" class="btn btn-default btn-block">Go to Cart</a>
+                  <a href="_football_shop-checkout.php#header" class="btn btn-primary-inverse btn-block">Checkout</a>
                 </li>
               </ul>
               <!-- Dropdown Shopping Cart / End -->
@@ -219,68 +219,68 @@
   
             <!-- Header Logo -->
             <div class="header-logo">
-              <a href="_football_index.html#header"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Camerino Sports Center" class="header-logo__img"></a>
+              <a href="_football_index.php#header"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Camerino Sports Center" class="header-logo__img"></a>
             </div>
             <!-- Header Logo / End -->
   
             <!-- Main Navigation -->
             <nav class="main-nav clearfix" class="header">
               <ul class="main-nav__list">
-                <li class="active"><a href="_football_index.html#header">Home</a></li>
+                <li class="active"><a href="_football_index.php#header">Home</a></li>
                     <li class=""><a href="#">Services</a>
                   <div class="main-nav__megamenu clearfix">
                   <ul class="col-lg-2 col-md-3 col-xs-12 main-nav__ul">
                       <li class="main-nav__title">Services</li>
-                      <li><a href="_football_outdoor.html#header">Outdoor Football</a></li>
-                      <li><a href="_football_indoor.html#header">Indoor Football</a></li>
-                      <li><a href="_swimming.html#header">Swimming</a></li>
-                      <li><a href="_squash.html#header">Squash Court</a></li>
-                      <li><a href="_basketball.html#header">Basket Ball</a></li>
-                      <li><a href="_atletics.html#header">Atletics</a></li>
-                      <li><a href="_football_page-contacts.html#header">Contact Us</a></li>
+                      <li><a href="_football_outdoor.php#header">Outdoor Football</a></li>
+                      <li><a href="_football_indoor.php#header">Indoor Football</a></li>
+                      <li><a href="_swimming.php#header">Swimming</a></li>
+                      <li><a href="_squash.php#header">Squash Court</a></li>
+                      <li><a href="_basketball.php#header">Basket Ball</a></li>
+                      <li><a href="_atletics.php#header">Atletics</a></li>
+                      <li><a href="_football_page-contacts.php#header">Contact Us</a></li>
                     </ul>
                     <ul class="col-lg-2 col-md-3 col-xs-12 main-nav__ul">
                     <li class="main-nav__title">Services</li>
-                      <li><a href="_yoga.html#header">Yoga</a></li>
-                      <li><a href="_tennis.html#header">Tennis</a></li>
-                      <li><a href="_volleyball.html#header">Volleyball</a></li>
-                      <li><a href="_gym.html#header">Gym</a></li>
+                      <li><a href="_yoga.php#header">Yoga</a></li>
+                      <li><a href="_tennis.php#header">Tennis</a></li>
+                      <li><a href="_volleyball.php#header">Volleyball</a></li>
+                      <li><a href="_gym.php#header">Gym</a></li>
                       </ul>
                     <div class="col-lg-4 col-md-3 col-xs-12">
                       <ul class="posts posts--simple-list">
                         <li class="posts__item posts__item--category-1">
                           <figure class="posts__thumb">
-                            <a href="_news_juventus.html#header"><img src="assets/images/samples/post-img-juventus.jpg" alt=""></a>
+                            <a href="_news_juventus.php#header"><img src="assets/images/samples/post-img-juventus.jpg" alt=""></a>
                           </figure>
                           <div class="posts__inner">
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Juventus</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_juventus.html#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
+                            <h6 class="posts__title"><a href="_news_juventus.php#header">La Squadra Juventus trionfa per la settima volta e crea storia</a></h6>
                             <time datetime="2018-06-26" class="posts__date">May 06, 2018</time>
                           </div>
                         </li>
                         <li class="posts__item posts__item--category-2">
                           <figure class="posts__thumb">
-                            <a href="_news_yoga.html#header"><img src="assets/images/samples/post-img-yoga.jpg" alt=""></a>
+                            <a href="_news_yoga.php#header"><img src="assets/images/samples/post-img-yoga.jpg" alt=""></a>
                           </figure>
                           <div class="posts__inner">
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Yoga</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_yoga.html#header">Si Riprendono le Lezioni di Yoga a Camerino</a></h6>
+                            <h6 class="posts__title"><a href="_news_yoga.php#header">Si Riprendono le Lezioni di Yoga a Camerino</a></h6>
                             <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
                           </div>
                         </li>
                         <li class="posts__item posts__item--category-1">
                           <figure class="posts__thumb">
-                            <a href="_news_motogp.html#header"><img src="assets/images/samples/post-img-motogp.jpg" alt=""></a>
+                            <a href="_news_motogp.php#header"><img src="assets/images/samples/post-img-motogp.jpg" alt=""></a>
                           </figure>
                           <div class="posts__inner">
                             <div class="posts__cat">
                               <span class="label posts__cat-label">MotoGp</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_motogp.html#header">Rossi Vince il MotoGp 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_motogp.php#header">Rossi Vince il MotoGp 2018</a></h6>
                             <time datetime="2018-05-28" class="posts__date">May 28, 2018</time>
                           </div>
                         </li>
@@ -298,7 +298,7 @@
                             <div class="posts__cat">
                               <span class="label posts__cat-label">Mondiali Calcio</span>
                             </div>
-                            <h6 class="posts__title"><a href="_news_post.html#header">Le Squadre Si Sbarcano a Russia Per Il Mondiale 2018</a></h6>
+                            <h6 class="posts__title"><a href="_news_post.php#header">Le Squadre Si Sbarcano a Russia Per Il Mondiale 2018</a></h6>
                             <time datetime="2018-06-06" class="posts__date">June 06, 2018</time>
                             <footer class="posts__footer card__footer">
                               <div class="post-author">
@@ -321,37 +321,37 @@
                     </div>
                   </div>
                 </li>
-                 <li class=""><a href="_football_shop-grid.html#header">Shop</a>
+                 <li class=""><a href="_football_shop-grid.php#header">Shop</a>
                   <ul class="main-nav__sub">
-                    <li><a href="_football_shop.html#header">Football</a></li>
-                    <li><a href="_tennis_shop.html#header">Tennis</a></li>
-                    <li><a href="_yoga_shop.html#header">Yoga</a></li>
-                    <li><a href="_squash_shop.html#header">Squash</a></li>
-                    <li><a href="_swimming_shop.html#header">Swimming Pool</a></li>
-                    <li><a href="_volley_shop.html#header">Volleyball</a></li>
-                    <li><a href="_basketball_shop.html#header">Basketbal</a></li>
-                    <li><a href="_football_shop-login.html#header">Cart</a></li>
+                    <li><a href="_football_shop.php#header">Football</a></li>
+                    <li><a href="_tennis_shop.php#header">Tennis</a></li>
+                    <li><a href="_yoga_shop.php#header">Yoga</a></li>
+                    <li><a href="_squash_shop.php#header">Squash</a></li>
+                    <li><a href="_swimming_shop.php#header">Swimming Pool</a></li>
+                    <li><a href="_volley_shop.php#header">Volleyball</a></li>
+                    <li><a href="_basketball_shop.php#header">Basketbal</a></li>
+                    <li><a href="_football_shop-login.php#header">Cart</a></li>
                   </ul>
                 </li>
                  <li class=""><a href="#">Gallery</a>
                   <ul class="main-nav__sub">
-                  <li><a href="_gallery_events.html#header">Events</a></li>
-                  <li><a href="_football_staff-single.html#header">Staff Member</a></li>
+                  <li><a href="_gallery_events.php#header">Events</a></li>
+                  <li><a href="_football_staff-single.php#header">Staff Member</a></li>
                   </ul>
                 </li>
               <li class=""><a href="#">Courses</a>
                   <ul class="main-nav__sub">
-                    <li><a href="_course_yoga.html#header">Yoga</a></li>
-                    <li><a href="_course_palestra.html#header">Palestra</a></li>
+                    <li><a href="_course_yoga.php#header">Yoga</a></li>
+                    <li><a href="_course_palestra.php#header">Palestra</a></li>
                     <li><a>Calcetto</a>
             <ul class="main-nav__sub-2">
-                          <li><a href="_calcetto_maschile.html#header">Calcetto Maschile</a></li>
-                          <li><a href="_calcetto_femminile.html#header">Calcetto Femminile</a></li>
+                          <li><a href="_calcetto_maschile.php#header">Calcetto Maschile</a></li>
+                          <li><a href="_calcetto_femminile.php#header">Calcetto Femminile</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                <li class=""><a href="_news.html#header">News</a>
+                <li class=""><a href="_news.php#header">News</a>
                 </li>
               </ul>
   

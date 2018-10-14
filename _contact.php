@@ -17,8 +17,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Your<span class="highlight">Wishlist</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html#header">Home</a></li>
-              <li><a href="_football_shop-grid.html#header">Shop</a></li>
+              <li><a href="_football_index.php#header">Home</a></li>
+              <li><a href="_football_shop-grid.php#header">Shop</a></li>
               <li class="active">Your Wishlist</li>
             </ol>
           </div>

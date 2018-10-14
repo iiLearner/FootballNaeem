@@ -16,8 +16,8 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Team <span class="highlight">Roster</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
-              <li><a href="_football_team-overview.html">The Team</a></li>
+              <li><a href="_football_index.php">Home</a></li>
+              <li><a href="_football_team-overview.php">The Team</a></li>
               <li class="active">Roster</li>
             </ol>
           </div>
@@ -30,12 +30,12 @@
           <div class="container">
             <a href="#" class="content-filter__toggle"></a>
             <ul class="content-filter__list">
-              <li class="content-filter__item "><a href="_football_team-overview.html" class="content-filter__link"><small>The Team</small>Overview</a></li>
-              <li class="content-filter__item content-filter__item--active"><a href="_football_team-roster.html" class="content-filter__link"><small>The Team</small>Roster</a></li>
-              <li class="content-filter__item "><a href="_football_team-standings.html" class="content-filter__link"><small>The Team</small>Standings</a></li>
-              <li class="content-filter__item "><a href="_football_team-last-results.html" class="content-filter__link"><small>The Team</small>Latest Results</a></li>
-              <li class="content-filter__item "><a href="_football_team-schedule.html" class="content-filter__link"><small>The Team</small>Schedule</a></li>
-              <li class="content-filter__item "><a href="_football_team-gallery.html" class="content-filter__link"><small>The Team</small>Gallery</a></li>
+              <li class="content-filter__item "><a href="_football_team-overview.php" class="content-filter__link"><small>The Team</small>Overview</a></li>
+              <li class="content-filter__item content-filter__item--active"><a href="_football_team-roster.php" class="content-filter__link"><small>The Team</small>Roster</a></li>
+              <li class="content-filter__item "><a href="_football_team-standings.php" class="content-filter__link"><small>The Team</small>Standings</a></li>
+              <li class="content-filter__item "><a href="_football_team-last-results.php" class="content-filter__link"><small>The Team</small>Latest Results</a></li>
+              <li class="content-filter__item "><a href="_football_team-schedule.php" class="content-filter__link"><small>The Team</small>Schedule</a></li>
+              <li class="content-filter__item "><a href="_football_team-gallery.php" class="content-filter__link"><small>The Team</small>Gallery</a></li>
             </ul>
           </div>
         </nav>
@@ -57,7 +57,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player1.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player1.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 
@@ -100,7 +100,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player2.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player2.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 
@@ -143,7 +143,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player3.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player3.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 
@@ -186,7 +186,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player1.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player1.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 
@@ -229,7 +229,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player2.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player2.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 
@@ -272,7 +272,7 @@
 
               <!-- Player Photo -->
               <figure class="team-roster__player-img">
-                <a href="_football_player-overview.html"><img src="assets/images/football/samples/roster-player3.jpg" alt=""></a>
+                <a href="_football_player-overview.php"><img src="assets/images/football/samples/roster-player3.jpg" alt=""></a>
               </figure>
               <!-- Player Photo / End-->
 

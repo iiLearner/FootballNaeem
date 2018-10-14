@@ -29,7 +29,7 @@
           <div class="posts__cat">
             <span class="label posts__cat-label">Volley</span>
           </div>
-          <h3 class="posts__title"><a href="_news_post.html#header">Volley player <span class="posts__title-higlight">Ahmad Naeem</span> breaks a new world record</a></h3>
+          <h3 class="posts__title"><a href="_news_post.php#header">Volley player <span class="posts__title-higlight">Ahmad Naeem</span> breaks a new world record</a></h3>
           <footer class="posts__footer">
             <div class="post-author">
               <figure class="post-author__avatar">
@@ -68,7 +68,7 @@
           <div class="posts__cat">
             <span class="label posts__cat-label">League</span>
           </div>
-          <h3 class="posts__title"><a href="_news_post.html#header">Camerino football team coach on <span class="posts__title-higlight">Team's progress</span> "We Are Improving"</a></h3>
+          <h3 class="posts__title"><a href="_news_post.php#header">Camerino football team coach on <span class="posts__title-higlight">Team's progress</span> "We Are Improving"</a></h3>
           <footer class="posts__footer">
             <div class="post-author">
               <figure class="post-author__avatar">
@@ -107,7 +107,7 @@
           <div class="posts__cat">
             <span class="label posts__cat-label">The Team-Basketball</span>
           </div>
-          <h3 class="posts__title"><a href="_news_post.html#header">The team is gonna <span class="posts__title-higlight">make a trip to the USA</span> for a tournament</a></h3>
+          <h3 class="posts__title"><a href="_news_post.php#header">The team is gonna <span class="posts__title-higlight">make a trip to the USA</span> for a tournament</a></h3>
           <footer class="posts__footer">
             <div class="post-author">
               <figure class="post-author__avatar">
@@ -146,7 +146,7 @@
           <div class="posts__cat">
             <span class="label posts__cat-label">Yoga</span>
           </div>
-          <h3 class="posts__title"><a href="_news_post.html#header">New Yoga instructor <span class="posts__title-higlight">Ahmad Naeem</span> joins with great enthusiasm</a></h3>
+          <h3 class="posts__title"><a href="_news_post.php#header">New Yoga instructor <span class="posts__title-higlight">Ahmad Naeem</span> joins with great enthusiasm</a></h3>
           <footer class="posts__footer">
             <div class="post-author">
               <figure class="post-author__avatar">
@@ -181,15 +181,15 @@
       <div class="marquee" data-duration="18000" data-gap="10" data-duplicated="true" >
         <ul class="posts posts--inline">
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 1</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 1</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 2"</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 2"</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
           <li class="posts__item">
-            <h6 class="posts__title"><a href="_news_post.html#header">This is a breaking news 1</a></h6>
+            <h6 class="posts__title"><a href="_news_post.php#header">This is a breaking news 1</a></h6>
             <div class="posts__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing...</div>
           </li>
         </ul>
@@ -214,7 +214,7 @@
             <div class="card card--clean mb-0">
               <header class="card__header card__header--has-btn">
                 <h4>Latest News</h4>
-                <a href="_news.html#header" class="btn btn-default btn-xs card-header__button">See All Posts</a>
+                <a href="_news.php#header" class="btn btn-default btn-xs card-header__button">See All Posts</a>
               </header>
               <div class="card__content">
                 <!-- Posts Grid -->
@@ -225,12 +225,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">The League</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/football/samples/post-img28.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/football/samples/post-img28.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-08-23" class="posts__date">August 23rd, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">The Clovers defense must reinvent itselft without Adam Howlett</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">The Clovers defense must reinvent itselft without Adam Howlett</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>
@@ -259,12 +259,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">The Team</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/football/samples/post-img29.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/football/samples/post-img29.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-09-14" class="posts__date">September 14th, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">Camerino's women division started training for next season</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">Camerino's women division started training for next season</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>
@@ -293,12 +293,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">The Team</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/samples/post-img8.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/samples/post-img8.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-09-16" class="posts__date">September 16rd, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">The perfect breakfast for the team's high intensity training</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">The perfect breakfast for the team's high intensity training</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>
@@ -313,12 +313,12 @@
                         <div class="posts__cat">
                           <span class="label posts__cat-label">Injuries</span>
                         </div>
-                        <a href="_news_post.html#header"><img src="assets/images/samples/post-img1.jpg" alt=""></a>
+                        <a href="_news_post.php#header"><img src="assets/images/samples/post-img1.jpg" alt=""></a>
                       </figure>
                       <div class="posts__inner card__content">
                         <a href="#" class="posts__cta"></a>
                         <time datetime="2017-08-23" class="posts__date">August 23rd, 2017</time>
-                        <h6 class="posts__title"><a href="_news_post.html#header">Scott Murdoch has a tibia fracture and will be out for two months</a></h6>
+                        <h6 class="posts__title"><a href="_news_post.php#header">Scott Murdoch has a tibia fracture and will be out for two months</a></h6>
                         <div class="posts__excerpt">
                           Lorem ipsum dolor sit amet, consectetur adipisi nel elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mini veniam, quis nostrud exercitation ullamco laboris.
                         </div>

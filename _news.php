@@ -16,7 +16,7 @@
           <div class="col-md-10 col-md-offset-1">
             <h1 class="page-heading__title">Latest<span class="highlight">News</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
-              <li><a href="_football_index.html">Home</a></li>
+              <li><a href="_football_index.php">Home</a></li>
               <li class="active">News</li>
             </ol>
           </div>
@@ -93,12 +93,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">The Team</span>
                     </div>
-                    <a href="_news_juventus.html#header"><img src="assets/images/football/samples/post-img-juventus.jpg" alt=""></a>
+                    <a href="_news_juventus.php#header"><img src="assets/images/football/samples/post-img-juventus.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-05-26" class="posts__date">May 26, 2018</time>
-                    <h6 class="posts__title"><a href="_news_juventus.html#header">LA SQUADRA JUVENTUS TRIONFA PER LA SETTIMA VOLTA E CREA STORIA</a></h6>
+                    <h6 class="posts__title"><a href="_news_juventus.php#header">LA SQUADRA JUVENTUS TRIONFA PER LA SETTIMA VOLTA E CREA STORIA</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -124,12 +124,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">Yoga</span>
                     </div>
-                    <a href="_news_yoga.html#header"><img src="assets/images/football/samples/post-img-yoga.jpg" alt=""></a>
+                    <a href="_news_yoga.php#header"><img src="assets/images/football/samples/post-img-yoga.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-05-02" class="posts__date">May 02, 2018</time>
-                    <h6 class="posts__title"><a href="_news_yoga.html#header">RIPRENDONO LE LEZIONI di YOGA a Camerino</a></h6>
+                    <h6 class="posts__title"><a href="_news_yoga.php#header">RIPRENDONO LE LEZIONI di YOGA a Camerino</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -155,12 +155,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">The Team</span>
                     </div>
-                    <a href="_news_nba.html#header"><img src="assets/images/football/samples/post-img-nba.jpg" alt=""></a>
+                    <a href="_news_nba.php#header"><img src="assets/images/football/samples/post-img-nba.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-06-08" class="posts__date">June 08, 2018</time>
-                    <h6 class="posts__title"><a href="_news_nba.html#header">LA SQUADRA GOLDEN STATE WARRIORS VINCE IL TITOLO NBA 2018</a></h6>
+                    <h6 class="posts__title"><a href="_news_nba.php#header">LA SQUADRA GOLDEN STATE WARRIORS VINCE IL TITOLO NBA 2018</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -186,12 +186,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">MotoGp</span>
                     </div>
-                    <a href="_news_motogp.html#header"><img src="assets/images/football/samples/post-img-motogp.jpg" alt=""></a>
+                    <a href="_news_motogp.php#header"><img src="assets/images/football/samples/post-img-motogp.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-05-28" class="posts__date">May 28, 2018</time>
-                    <h6 class="posts__title"><a href="_news_motogp.html#header">VALNETINO ROSSI VINCE IL MOTOGP 2018</a></h6>
+                    <h6 class="posts__title"><a href="_news_motogp.php#header">VALNETINO ROSSI VINCE IL MOTOGP 2018</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -233,7 +233,7 @@
                     <div class="posts__cat posts__cat--flow">
                       <span class="label posts__cat-label">The Team</span>
                     </div>
-                    <h6 class="posts__title"><a href="_news_lube.html#header">CONTINUA IL TRIONFO DELLA SQUADRA LA LUBE</a></h6>
+                    <h6 class="posts__title"><a href="_news_lube.php#header">CONTINUA IL TRIONFO DELLA SQUADRA LA LUBE</a></h6>
                     <time datetime="2018-05-26" class="posts__date">May 26, 2018</time>
                   </div>
                   <footer class="posts__footer card__footer">
@@ -260,12 +260,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">The Team</span>
                     </div>
-                    <a href="_news_milan.html#header"><img src="assets/images/football/samples/post-img-milan.jpg" alt=""></a>
+                    <a href="_news_milan.php#header"><img src="assets/images/football/samples/post-img-milan.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-05-29" class="posts__date">May 29, 2018</time>
-                    <h6 class="posts__title"><a href="_news_milan.html#header">La Squadra AC MILAN si Qualifica Per Europa League </a></h6>
+                    <h6 class="posts__title"><a href="_news_milan.php#header">La Squadra AC MILAN si Qualifica Per Europa League </a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -302,12 +302,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">Nuoto</span>
                     </div>
-                    <a href="_news_swimming.html#header"><img src="assets/images/football/samples/post-img-federica.jpg" alt=""></a>
+                    <a href="_news_swimming.php#header"><img src="assets/images/football/samples/post-img-federica.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-04-26" class="posts__date">April 26, 2018</time>
-                    <h6 class="posts__title"><a href="_news_swimming.html#header">FEDERICA PELEGRINI DIVENTA NUOVA SENSAZIONE DEL NUOTO ITALIANO</a></h6>
+                    <h6 class="posts__title"><a href="_news_swimming.php#header">FEDERICA PELEGRINI DIVENTA NUOVA SENSAZIONE DEL NUOTO ITALIANO</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -333,12 +333,12 @@
                     <div class="posts__cat">
                       <span class="label posts__cat-label">The Team</span>
                     </div>
-                    <a href="_news_mondiali_calcio.html#header"><img src="assets/images/football/samples/post-img-mondiali.jpg" alt=""></a>
+                    <a href="_news_mondiali_calcio.php#header"><img src="assets/images/football/samples/post-img-mondiali.jpg" alt=""></a>
                   </figure>
                   <div class="posts__inner card__content">
                     <a href="#" class="posts__cta"></a>
                     <time datetime="2018-06-06" class="posts__date">June 06, 2018</time>
-                    <h6 class="posts__title"><a href="_news_mondiali_calcio.html#header">LE SQUADRE PARTECIPANTI AI MONDIALI SBARCANO A RUSSIA</a></h6>
+                    <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">LE SQUADRE PARTECIPANTI AI MONDIALI SBARCANO A RUSSIA</a></h6>
                   </div>
                   <footer class="posts__footer card__footer">
                     <div class="post-author">
@@ -375,7 +375,7 @@
                     <div class="posts__cat posts__cat--flow">
                       <span class="label posts__cat-label">Palestra</span>
                     </div>
-                    <h6 class="posts__title"><a href="_news_palestra.html#header">LA PALESTRA DI CUS CAMERINO DISPONE DI NUOVA ATTREZZATURA DI QUALITÀ</a></h6>
+                    <h6 class="posts__title"><a href="_news_palestra.php#header">LA PALESTRA DI CUS CAMERINO DISPONE DI NUOVA ATTREZZATURA DI QUALITÀ</a></h6>
                     <time datetime="2018-05-10" class="posts__date">June 10, 2018</time>
                   </div>
                   <footer class="posts__footer card__footer">
