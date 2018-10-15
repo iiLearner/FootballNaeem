@@ -69,11 +69,10 @@
  <!-- Content / End -->
  <!-- Footer
     ================================================== -->
-     <?php 
-    include('footer.php'); 
-?>
-    <!-- Footer / End -->
- 
+    <?php 
+      include('footer.php'); 
+    ?>
+  <!-- Footer / End -->
   <!-- Javascript Files
   ================================================== -->
   <!-- Core JS -->
