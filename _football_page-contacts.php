@@ -114,19 +114,12 @@
   <!-- Core JS -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/js/core-min.js"></script>
-  <script src="assets/js/custom.js"></script>
-  
   <!-- Vendor JS -->
   <script src="assets/vendor/jquery-duotone/jquery.duotone.min.js"></script>
-
   <script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
-  
-  <!-- Firebase Script -->
-  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
-
   <!-- Template JS -->
   <script src="assets/js/init.js"></script>
-  <script src="assets/js/custom1.js"></script>
+  <script src="assets/js/custom.js"></script>
   
   </body>
   </html>

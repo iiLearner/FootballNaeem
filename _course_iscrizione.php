@@ -36,7 +36,7 @@
                     <div class="col-md-6" style="width: 100%;">
 
                         <!-- Login -->
-                        <div class="card" id="login-id">
+                        <div class="card" id="subscription-id">
                             <div class="card__header">
                                 <h4>Iscrivit al corso</h4>
                             </div>
@@ -55,7 +55,7 @@
 
                                 <div class="form-group">
                                     <label for="subscription-name">Email</label>
-                                    <input type="email" name="subscription-name" id="subscription-name" class="form-control" placeholder=" Email Address...">
+                                    <input type="email" name="subscription-name" id="subscription-email" class="form-control" placeholder=" Email Address...">
                                 </div>
                                 <div class="form-group">
                                     <label for="subscription-number">Telefono</label>
@@ -67,7 +67,7 @@
                                 </div>
 
                                 <div class="form-group form-group--sm">
-                                    <button class="btn btn-primary-inverse btn-lg btn-block" onclick="subscribe()">Iscriviti</button>
+                                    <button class="btn btn-primary-inverse btn-lg btn-block" type="submit">Iscriviti</button>
                                 </div>
 
 
@@ -89,27 +89,19 @@
       include('footer.php'); 
     ?>
     <!-- Footer / End -->
-    
-  </div>
-
   <!-- Javascript Files
   ================================================== -->
   <!-- Core JS -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/js/core-min.js"></script>
-  <script src="assets/js/custom.js"></script>
-  
   <!-- Vendor JS -->
   <script src="assets/vendor/jquery-duotone/jquery.duotone.min.js"></script>
-
   <script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
-  
-  <!-- Firebase Script -->
-  <script src="https://www.gstatic.com/firebasejs/5.1.0/firebase.js"></script>
-
   <!-- Template JS -->
   <script src="assets/js/init.js"></script>
-  <script src="assets/js/custom1.js"></script>
+   <!-- Firebase Script -->
+  <script src="assets/js/custom.js"></script>
+    
   
   </body>
   </html>
