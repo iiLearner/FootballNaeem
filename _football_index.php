@@ -1,7 +1,10 @@
 
   <?php 
-    include('header.php'); 
-  ?>
+    //define page title
+    $title = 'Camerino Sports Center';
+    require('header.php'); 
+
+?>
 <!DOCTYPE html>
 <html>
 <body>

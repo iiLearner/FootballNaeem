@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Basketball';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

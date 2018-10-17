@@ -1,6 +1,9 @@
  <?php 
-    include('header.php'); 
-  ?>
+    //define page title
+    $title = 'Atletica';
+    require('header.php'); 
+
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 <body>

@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Shop';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

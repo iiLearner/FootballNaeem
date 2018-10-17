@@ -1,5 +1,8 @@
 <?php 
-    include('header.php'); 
+    //define page title
+    $title = 'News Lube';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -14,7 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <h1 class="page-heading__title">Europa League accoglie<span class="highlight">AC Milan</span></h1>
+            <h1 class="page-heading__title">Continua il trionfo della<span class="highlight">Lube</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
               <li><a href="_football_index.php">Home</a></li>
               <li><a href="_football_blog-1.php">News</a></li>
@@ -38,7 +41,7 @@
             <article class="card post post--single">
 
               <figure class="post__thumbnail">
-                <img src="assets/images/football/samples/single-post-milan.jpg" alt="">
+                <img src="assets/images/football/samples/single-post-lube.jpg" alt="">
               </figure>
 
               <div class="card__content">
@@ -46,9 +49,9 @@
                   <span class="label posts__cat-label">The Team</span>
                 </div>
                 <header class="post__header">
-                  <h2 class="post__title">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</h2>
+                  <h2 class="post__title">Continua Il Trionfo Della Squadra La Lube</h2>
                   <ul class="post__meta meta">
-                    <li class="meta__item meta__item--date"><time datetime="2017-08-23">May 29, 2018</time></li>
+                    <li class="meta__item meta__item--date"><time datetime="2018-05-26">May 26, 2018</time></li>
                     <li class="meta__item meta__item--views">2369</li>
                     <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
                     <li class="meta__item meta__item--comments"><a href="#">18</a></li>
@@ -66,11 +69,10 @@
                   <div class="spacer"></div>
 
                   <figure class="aligncenter">
-                    <img src="assets/images/football/samples/single-post-giocatore-milan.jpg" alt="">
-                    <figcaption>I Giocatori della squadra AC Milan durante una Partita</figcaption>
+                    <img src="assets/images/football/samples/single-post-giocatore.jpg" alt="">
+                    <figcaption>Il giocatore della lube durante una partita </figcaption>
                   </figure>
-
-                 <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
                   <div class="spacer"></div>
 
@@ -104,12 +106,12 @@
             <div class="post-author post-author--avatar-left card">
               <div class="card__content">
                 <figure class="post-author__avatar">
-                  <img src="assets/images/football/samples/avatar-gattuso.jpg" alt="Post Author Avatar">
+                  <img src="assets/images/football/samples/avatar-allentore-lube.jpg" alt="Post Author Avatar">
                 </figure>
                 <header class="post-author__header">
                   <div class="post-author__info">
-                    <h4 class="post-author__name">Gennaro Gattuso</h4>
-                    <span class="post-author__slogan">Allenatore AC Milan</span>
+                    <h4 class="post-author__name">Giampaoli Medei</h4>
+                    <span class="post-author__slogan">Allenatore Lube</span>
                   </div>
                   <ul class="post-author__social-links social-links social-links--btn">
                     <li class="social-links__item">
@@ -147,7 +149,7 @@
                           <div class="posts__cat">
                             <span class="label posts__cat-label">The Team</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_lube.php#header">Continua il trionfo della Lube</a></h6>
+                          <h6 class="posts__title"><a href="#">LA SQUADRA JUVENTUS TRIONFA PER LA SETTIMA VOLTA E CREA STORIA</a></h6>
                           <time datetime="2017-08-23" class="posts__date">May 26, 2018</time>
                         </div>
                       </li>
@@ -168,8 +170,8 @@
                           <div class="posts__cat">
                             <span class="label posts__cat-label">The League</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
-                          <time datetime="2018-06-06" class="posts__date">June 06, 2018</time>
+                          <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
+                          <time datetime="2017-08-23" class="posts__date">May 29, 2018</time>
                         </div>
                       </li>
                     </ul>
@@ -186,11 +188,6 @@
               </div>
             </div>
             <!-- Related Posts / End -->
-            
-
-          
-            
-
           </div>
           <!-- Content / End -->
 
@@ -234,7 +231,7 @@
             <!-- Widget: Social Buttons - Grid / End -->
             
 
-            <!-- Widget: Popular News - Numbered -->
+             <!-- Widget: Popular News - Numbered -->
             <aside class="widget widget--sidebar card widget-popular-posts">
               <div class="widget__title card__header">
                 <h4>Popular News</h4>
@@ -293,11 +290,6 @@
               </div>
             </aside>
             <!-- Widget: Popular News - Numbered / End -->
-            
-
-          
-            
-
             <!-- Widget: Banner -->
             <aside class="widget card widget--sidebar widget-banner">
               <div class="widget__title card__header">
@@ -312,7 +304,7 @@
             <!-- Widget: Banner / End -->
             
 
-             <!-- Widget: Trending News -->
+              <!-- Widget: Trending News -->
             <aside class="widget widget--sidebar card widget-tabbed">
               <div class="widget__title card__header">
                 <h4>Top Trending News</h4>
@@ -501,7 +493,7 @@
     <!-- Content / End -->
    <!-- Footer
     ================================================== -->
-    <?php 
+   <?php 
     include('footer.php'); 
 ?>
     <!-- Footer / End -->

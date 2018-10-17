@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Calcio Indoor';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

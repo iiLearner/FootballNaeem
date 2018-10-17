@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Corsi Yoga';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

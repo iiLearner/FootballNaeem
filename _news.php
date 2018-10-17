@@ -1,7 +1,7 @@
 <?php 
     //define page title
-    $title = 'Demo';
-    require('../header.php'); 
+    $title = 'News';
+    require('header.php'); 
 
 ?>
 <!DOCTYPE html>
@@ -410,13 +410,6 @@
                   </footer>
                 </a>
               </div>
-
-          
-
-            
-
-             
-
             </div>
             <!-- Post Grid / End -->
             <!-- Post Pagination -->
@@ -435,29 +428,21 @@
     <!-- Content / End -->
    <!-- Footer
     ================================================== -->
- <?php 
+  <?php 
     include('footer.php'); 
-?>
+  ?>
     <!-- Footer / End -->
-    
-  </div>
-
   <!-- Javascript Files
   ================================================== -->
   <!-- Core JS -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/js/core-min.js"></script>
-  
   <!-- Vendor JS -->
   <script src="assets/vendor/twitter/jquery.twitter.js"></script>
-  <script src="assets/vendor/jquery-duotone/jquery.duotone.min.js"></script>
-  
-  
-  
+  <script src="assets/vendor/jquery-duotone/jquery.duotone.min.js"></script> 
   <!-- Template JS -->
   <script src="assets/js/init.js"></script>
   <script src="assets/js/custom.js"></script>
-  
   </body>
   </html>
   

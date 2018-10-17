@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Login';
+    require('header.php'); 
+
 ?>
     <!-- Header / End -->
   

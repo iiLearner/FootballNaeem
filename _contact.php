@@ -1,5 +1,8 @@
- <?php 
-    include('header.php'); 
+<?php 
+    //define page title
+    $title = 'Contatti';
+    require('header.php'); 
+
 ?>
 
 <!DOCTYPE html>

@@ -1,7 +1,9 @@
 <?php 
-    include('header.php'); 
-?>
-<!DOCTYPE html>
+    //define page title
+    $title = 'Tennis';
+    require('header.php'); 
+
+?><!DOCTYPE html>
 <html lang="zxx">
 <body>
     <!-- Header / End -->

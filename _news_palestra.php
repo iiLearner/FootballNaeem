@@ -1,5 +1,8 @@
 <?php 
-    include('header.php'); 
+    //define page title
+    $title = 'News Palestra';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -14,7 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <h1 class="page-heading__title">Le Squadre sbarcano a<span class="highlight">Russia</span></h1>
+            <h1 class="page-heading__title">Nuova Struttura In Palestra<span class="highlight">-Cus Camerino</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
               <li><a href="_football_index.php">Home</a></li>
               <li><a href="_football_blog-1.php">News</a></li>
@@ -38,17 +41,17 @@
             <article class="card post post--single">
 
               <figure class="post__thumbnail">
-                <img src="assets/images/football/samples/single-post-russia.jpg" alt="">
+                <img src="assets/images/football/samples/single-post-palestra.jpg" alt="">
               </figure>
 
               <div class="card__content">
                 <div class="post__category">
-                  <span class="label posts__cat-label">The Team</span>
+                  <span class="label posts__cat-label">Palestra</span>
                 </div>
                 <header class="post__header">
-                  <h2 class="post__title">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</h2>
+                  <h2 class="post__title">La Palestra di Cus Camerino dispone di nuova attrezzatura di qualità</h2>
                   <ul class="post__meta meta">
-                    <li class="meta__item meta__item--date"><time datetime="2017-08-23">June 06, 2018</time></li>
+                    <li class="meta__item meta__item--date"><time datetime="2018-06-10">June 10, 2018</time></li>
                     <li class="meta__item meta__item--views">2369</li>
                     <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
                     <li class="meta__item meta__item--comments"><a href="#">18</a></li>
@@ -56,7 +59,7 @@
                 </header>
 
                 <div class="post__content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
                   <div class="spacer"></div>
 
@@ -66,11 +69,11 @@
                   <div class="spacer"></div>
 
                   <figure class="aligncenter">
-                    <img src="assets/images/football/samples/single-post-squadre-mondiali.jpg" alt="">
-                    <figcaption>Le Squadre Partecipanti ai Mondiali</figcaption>
+                    <img src="assets/images/football/samples/single-post-giocatore-palestra.jpg" alt="">
+                    <figcaption>Atleti durante la pratica dei esercizi in Cus Camerino</figcaption>
                   </figure>
 
-                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                  <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 
                   <div class="spacer"></div>
 
@@ -105,12 +108,12 @@
             <div class="post-author post-author--avatar-left card">
               <div class="card__content">
                 <figure class="post-author__avatar">
-                  <img src="assets/images/football/samples/avatar-maradona.jpg" alt="Post Author Avatar">
+                  <img src="assets/images/football/samples/avatar-pettinari.jpg" alt="Post Author Avatar">
                 </figure>
                 <header class="post-author__header">
                   <div class="post-author__info">
-                    <h4 class="post-author__name">Diego Maradona</h4>
-                    <span class="post-author__slogan">Ex Giocatore Argentina</span>
+                    <h4 class="post-author__name">Claudio Pettinari</h4>
+                    <span class="post-author__slogan">Rettore Unicam</span>
                   </div>
                   <ul class="post-author__social-links social-links social-links--btn">
                     <li class="social-links__item">
@@ -146,10 +149,10 @@
                       <li class="posts__item posts__item--category-1">
                         <div class="posts__inner">
                           <div class="posts__cat">
-                            <span class="label posts__cat-label">Injuries</span>
+                            <span class="label posts__cat-label">The Team</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_milan.php#header">AC Milan Entra Di Nuovo In Europa League Sotto La Guida Di Gattuso</a></h6>
-                          <time datetime="2018-06-29" class="posts__date">May 29, 2018</time>
+                          <h6 class="posts__title"><a href="_news_nba.php#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
+                          <time datetime="2018-05-08" class="posts__date">June 08, 2018</time>
                         </div>
                       </li>
                     </ul>
@@ -167,10 +170,10 @@
                       <li class="posts__item posts__item--category-3">
                         <div class="posts__inner">
                           <div class="posts__cat">
-                            <span class="label posts__cat-label">MotoGp</span>
+                            <span class="label posts__cat-label">The Team</span>
                           </div>
-                          <h6 class="posts__title"><a href="#">Valentino Rossi Vince Il MotoGp 2018</a></h6>
-                          <time datetime="2018-05-28" class="posts__date">May 28, 2017</time>
+                          <h6 class="posts__title"><a href="#">Federica Pelegrini diventa nuova sensazione del nuoto Italiano</a></h6>
+                          <time datetime="2018-04-26" class="posts__date">April 26, 2018</time>
                         </div>
                       </li>
                     </ul>
@@ -187,6 +190,11 @@
               </div>
             </div>
             <!-- Related Posts / End -->
+            
+
+         
+            
+
           </div>
           <!-- Content / End -->
 
@@ -289,6 +297,9 @@
               </div>
             </aside>
             <!-- Widget: Popular News - Numbered / End -->
+            
+
+          
 
             <!-- Widget: Banner -->
             <aside class="widget card widget--sidebar widget-banner">
@@ -491,9 +502,9 @@
     </div>
 
     <!-- Content / End -->
-   <!-- Footer
+    <!-- Footer
     ================================================== -->
-    <?php 
+   <?php 
     include('footer.php'); 
 ?>
     <!-- Footer / End -->

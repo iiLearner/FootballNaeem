@@ -1,5 +1,8 @@
 <?php 
-    include('header.php'); 
+    //define page title
+    $title = 'News NBA';
+    require('header.php'); 
+
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -14,7 +17,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-10 col-md-offset-1">
-            <h1 class="page-heading__title">MotoGp<span class="highlight"> -Rossi</span></h1>
+            <h1 class="page-heading__title">NBA<span class="highlight">Finals</span></h1>
             <ol class="page-heading__breadcrumb breadcrumb">
               <li><a href="_football_index.php">Home</a></li>
               <li><a href="_football_blog-1.php">News</a></li>
@@ -38,7 +41,7 @@
             <article class="card post post--single">
 
               <figure class="post__thumbnail">
-                <img src="assets/images/football/samples/single-post-motogp.jpg" alt="">
+                <img src="assets/images/football/samples/single-post-nba.jpg" alt="">
               </figure>
 
               <div class="card__content">
@@ -46,9 +49,9 @@
                   <span class="label posts__cat-label">The Team</span>
                 </div>
                 <header class="post__header">
-                  <h2 class="post__title">Valnetino Rossi Vince Il MotoGp 2018</h2>
+                  <h2 class="post__title">La Squadra Golden State Warriors vincono il titolo NBA 2018</h2>
                   <ul class="post__meta meta">
-                    <li class="meta__item meta__item--date"><time datetime="2015-05-28">May 28, 2018</time></li>
+                    <li class="meta__item meta__item--date"><time datetime="2018-06-08">June 08, 2018</time></li>
                     <li class="meta__item meta__item--views">2369</li>
                     <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
                     <li class="meta__item meta__item--comments"><a href="#">18</a></li>
@@ -56,7 +59,7 @@
                 </header>
 
                 <div class="post__content">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 
                   <div class="spacer"></div>
 
@@ -66,8 +69,8 @@
                   <div class="spacer"></div>
 
                   <figure class="aligncenter">
-                    <img src="assets/images/football/samples/single-post-rossi.jpg" alt="">
-                    <figcaption>Valentino Rossi </figcaption>
+                    <img src="assets/images/football/samples/single-post-giocatore-nba.jpg" alt="">
+                    <figcaption>Giocatore dei Golden State Warriors mentre Festeggia </figcaption>
                   </figure>
 
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
@@ -104,12 +107,12 @@
             <div class="post-author post-author--avatar-left card">
               <div class="card__content">
                 <figure class="post-author__avatar">
-                  <img src="assets/images/football/samples/avatar-rossi.jpg" alt="Post Author Avatar">
+                  <img src="assets/images/football/samples/avatar-lebron.jpg" alt="Post Author Avatar">
                 </figure>
                 <header class="post-author__header">
                   <div class="post-author__info">
-                    <h4 class="post-author__name">Valentino Rossi</h4>
-                    <span class="post-author__slogan">Vincitore MotoGp 2018</span>
+                    <h4 class="post-author__name">Lebron James</h4>
+                    <span class="post-author__slogan">Giocatore dei Cavaliers</span>
                   </div>
                   <ul class="post-author__social-links social-links social-links--btn">
                     <li class="social-links__item">
@@ -147,8 +150,8 @@
                           <div class="posts__cat">
                             <span class="label posts__cat-label">The Team</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_mondiali_calcio.php#header">Le Squadre Partecipanti ai Mondiali Sbarcano a Russia</a></h6>
-                          <time datetime="2018-06-06" class="posts__date">June 06, 2018</time>
+                          <h6 class="posts__title"><a href="_news_motogp.php#header">Valnetino Rossi Vince Il MotoGp 2018</a></h6>
+                          <time datetime="2018-05-28" class="posts__date">May 28, 2017</time>
                         </div>
                       </li>
                     </ul>
@@ -166,10 +169,10 @@
                       <li class="posts__item posts__item--category-3">
                         <div class="posts__inner">
                           <div class="posts__cat">
-                            <span class="label posts__cat-label">The Time</span>
+                            <span class="label posts__cat-label">Palesta</span>
                           </div>
-                          <h6 class="posts__title"><a href="_news_nba.php#header">La Squadra Golden State Warriors vincono il titolo NBA 2018</a></h6>
-                          <time datetime="2018-06-08" class="posts__date">June 08, 2018</time>
+                          <h6 class="posts__title"><a href="_news_palestra.php#header">La Palestra di Cus Camerino dispone di nuova attrezzatura di qualità.</a></h6>
+                          <time datetime="2018-06-10" class="posts__date">June 10, 2018</time>
                         </div>
                       </li>
                     </ul>
@@ -189,6 +192,7 @@
             
 
           
+            
 
           </div>
           <!-- Content / End -->
@@ -232,7 +236,8 @@
             </aside>
             <!-- Widget: Social Buttons - Grid / End -->
             
-   <!-- Widget: Popular News - Numbered -->
+
+             <!-- Widget: Popular News - Numbered -->
             <aside class="widget widget--sidebar card widget-popular-posts">
               <div class="widget__title card__header">
                 <h4>Popular News</h4>
@@ -293,7 +298,6 @@
             <!-- Widget: Popular News - Numbered / End -->
             
 
-      
             
 
             <!-- Widget: Banner -->
@@ -309,8 +313,7 @@
             </aside>
             <!-- Widget: Banner / End -->
             
-
-             <!-- Widget: Trending News -->
+   <!-- Widget: Trending News -->
             <aside class="widget widget--sidebar card widget-tabbed">
               <div class="widget__title card__header">
                 <h4>Top Trending News</h4>
@@ -499,7 +502,7 @@
     <!-- Content / End -->
    <!-- Footer
     ================================================== -->
-   <?php 
+ <?php 
     include('footer.php'); 
 ?>
     <!-- Footer / End -->
