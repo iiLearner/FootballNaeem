@@ -1,12 +1,13 @@
+<?php include('server.php') ?>
 <?php 
     //define page title
     $title = 'Login';
     require('header.php'); 
-
 ?>
+<!DOCTYPE html>
+<html lang="zxx">
+<body>
     <!-- Header / End -->
-  
-
     <!-- Page Heading
     ================================================== -->
     <div class="page-heading">
@@ -23,32 +24,28 @@
         </div>
       </div>
     </div>
-
      <!-- Content
     ================================================== -->
     <div class="site-content">
-
       <div class="container">
         <div class="row">
-
           <div class="col-md-6" style="width: 100%;">
-
             <!-- Login -->
             <div class="card" id="login-id">
               <div class="card__header">
                 <h4>Login to your Account</h4>
               </div>
               <div class="card__content">
-
                 <!-- Login Form -->
-                
+                <form class="form-group" method="post" action="login.php" autocomplete="off">
+                  <?php include('errors.php'); ?>
                   <div class="form-group">
-                    <label for="login-name">Your Email</label>
-                    <input type="email" name="login-name" id="login-name" class="form-control" placeholder="Enter your email address...">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" id="username" value="<?php echo $username; ?>" class="form-control" placeholder="Username..." required="">
                   </div>
                   <div class="form-group">
-                    <label for="login-password">Your Password</label>
-                    <input type="password" name="login-password" id="login-password" class="form-control" placeholder="Enter your password...">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" class="form-control" placeholder="Enter your password...">
                   </div>
                   <div class="form-group form-group--password-forgot">
                     <label class="checkbox checkbox-inline">
@@ -58,26 +55,17 @@
                     <span class="password-reminder">Forgot your password? <a href="#">Click Here</a></span>
                   </div>
                   <div class="form-group form-group--sm">
-                    <button class="btn btn-primary-inverse btn-lg btn-block" onclick="login()" > Sign in to your account</button>
+                   <Button type="submit" name="login" value="login" class="btn btn-primary-inverse btn-lg btn-block">Login</Button>
                   </div>
-                  <div class="row">
-                    <div class="col-md-6">
-                      <button class="btn btn-facebook btn-icon btn-block"><i class="fa fa-facebook"></i> Sign In via Facebook</button>
-                    </div>
-                    <div class="col-md-6">
-                      <button class="btn btn-twitter btn-icon btn-block"><i class="fa fa-twitter"></i> Sign in via Twitter</button>
-                    </div>
-                  </div>
-                    <div class="form-group form-group--sm" style="padding-top: 10px;">
-                    <button class="btn btn-primary-inverse btn-lg btn-block" onclick="location.href='_football_shop-registra.php#header'" onclick="login()" > Register Your Account</button>
-                    </div>
+                </form>
                 <!-- Login Form / End -->
-
+                <div class="form-group form-group--sm" style="padding-top: 10px;">
+                     <button class="btn btn-primary-inverse btn-lg btn-block" onclick="location.href='registrati.php#header'"> Register Your Account</button>
+                </div>
               </div>
             </div>
             <!-- Login / End -->
           </div>
-          
         </div>
       </div>
     </div>
@@ -102,7 +90,7 @@
   <script src="assets/vendor/marquee/jquery.marquee.min.js"></script>
   <!-- Template JS -->
   <script src="assets/js/init.js"></script> 
-  <script src="assets/js/custom1.js"></script>
+  <script src="assets/js/custom.js"></script>
   
   </body>
   </html>

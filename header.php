@@ -75,11 +75,11 @@
   
           <!-- Account Navigation -->
           <ul class="nav-account">
-            <li class="nav-account__item"><a href="_football_shop-account.php#header">Your Account</a></li>
+            <li class="nav-account__item"><a href="account.php#header">Your Account</a></li>
             <li class="nav-account__item nav-account__item--wishlist"><a href="_football_shop-wishlist.php#header">Wishlist <span class="highlight">8</span></a></li>
             <li class="nav-account__item"><a href="#">Currency: <span class="highlight">EUR</span></a></li>
             <li class="nav-account__item"><a href="#">Language: <span class="highlight">EN</span></a></li>
-            <li class="nav-account__item nav-account__item--logout"><a href="_football_shop-login.php#header">Logout</a></li>
+            <li class="nav-account__item nav-account__item--logout"><a href="login.php#header">Login/Logout</a></li>
           </ul>
           <!-- Account Navigation / End -->
   
