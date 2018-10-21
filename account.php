@@ -1,11 +1,12 @@
 <?php 
+   //define page title
+    $title = 'Account';
   require('header.php');
   if (!isset($_SESSION['username'])) {
     header('location: login.php');
   }
   require("navbar.php");  
-    //define page title
-    $title = 'Account'; 
+    
 
 ?>
 <!DOCTYPE html>
