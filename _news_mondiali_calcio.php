@@ -2,7 +2,7 @@
     //define page title
     $title = 'News Mondiali Calcio';
     require('header.php'); 
-
+    require("navbar.php");
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

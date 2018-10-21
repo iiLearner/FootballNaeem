@@ -2,7 +2,7 @@
 
     $title = 'News Juventus';
     include('header.php'); 
-
+    require("navbar.php");
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

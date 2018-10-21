@@ -2,6 +2,7 @@
     //define page title
     $title = 'Iscrizione Corsi';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

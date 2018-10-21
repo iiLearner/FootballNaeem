@@ -2,6 +2,7 @@
     //define page title
     $title = 'Carrello';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

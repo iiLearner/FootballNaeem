@@ -1,7 +1,8 @@
 <?php 
     //define page title
     $title = 'Basketball';
-    require('header.php'); 
+    require('header.php');
+    require("navbar.php");  
 
 ?>
 <!DOCTYPE html>

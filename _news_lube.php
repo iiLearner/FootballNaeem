@@ -2,7 +2,7 @@
     //define page title
     $title = 'News Lube';
     require('header.php'); 
-
+    require("navbar.php");
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

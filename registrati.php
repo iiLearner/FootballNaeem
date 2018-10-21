@@ -1,7 +1,51 @@
-<?php include('server.php') ?>
 <?php
 $title = 'Registrati';
     require('header.php'); 
+    // REGISTER USER
+  if (isset($_POST['register'])) {
+    // receive all input values from the form
+    $db = mysqli_connect('localhost', 'root', '', 'football');
+    $error;
+    $name = mysqli_real_escape_string($db, $_POST['name']);
+    $surname = mysqli_real_escape_string($db, $_POST['surname']);
+    $username = mysqli_real_escape_string($db, $_POST['username']);
+    $email = mysqli_real_escape_string($db, $_POST['email']);
+    $password = mysqli_real_escape_string($db, $_POST['password']);
+    $Cpassword = mysqli_real_escape_string($db, $_POST['Cpassword']);
+
+    if ($password != $Cpassword) {
+    $error = "The two passwords do not match";
+    }
+
+    // first check the database to make sure 
+    // a user does not already exist with the same username and/or email
+    $user_check_query = "SELECT * FROM users WHERE username='$username' OR email='$email' LIMIT 1";
+    $result = mysqli_query($db, $user_check_query);
+    $user = mysqli_fetch_assoc($result);
+    
+    if ($user) { // if user exists
+      if ($user['username'] === $username) {
+        $error = "Username already exists";
+      }
+
+      if ($user['email'] === $email) {
+        $error ="email already exists";
+      }
+    }
+
+    // Finally, register user if there are no errors in the form
+    if (empty($error)) {
+      $password_e = md5($password);//encrypt the password before saving in the database
+
+      $query = "INSERT INTO users (name, surname, username, email, password) 
+            VALUES('$name', '$surname', '$username', '$email', '$password_e')";
+      mysqli_query($db, $query);
+      $_SESSION['username'] = $username;
+      $_SESSION['success'] = "You are now logged in";
+      header('location: account.php');
+    }
+  }
+  require("navbar.php");
 ?>
 
 <!DOCTYPE html>
@@ -27,6 +71,7 @@ $title = 'Registrati';
 <div class="site-content">
 	<div class="container">
         <div class="row">
+          <?php if(!empty($error)) echo $error; ?>
         	<div class="col-md-6" style="width: 100%;">
             	<!-- Login -->
             		<div class="card" id="login-id">
@@ -36,10 +81,10 @@ $title = 'Registrati';
               			<div class="card__content">
                 			<!-- Login Form -->
                 			<form class="form-group" action="registrati.php" method="post" autocomplete="off">
-	                			<?php include('errors.php'); ?>
+	                		
                           <div class="form-group">
                             <label for="name">Nome</label>
-                            <input type="text" name="name"  class="form-control" placeholder="Enter Your Naem..." required="">
+                            <input type="text" name="name"  class="form-control" placeholder="Enter Your Name..." required="">
                           </div>
                           <div class="form-group">
                             <label for="surname">Cognome</label>
@@ -47,11 +92,11 @@ $title = 'Registrati';
                           </div>
 	                  			<div class="form-group">
 	                    			<label for="username">Nome Utente</label>
-	                    			<input type="text" name="username" id="username" value="<?php echo $username; ?>" class="form-control" placeholder="Choose a Username..." required="">
+	                    			<input type="text" name="username" id="username"  class="form-control" placeholder="Choose a Username..." required="">
 	                  			</div>
 	                  			<div class="form-group">
 				                    <label for="email">Email</label>
-				                    <input type="email" name="email" id="email" value="<?php echo $email; ?>" class="form-control" placeholder="Enter your Email..." required="">
+				                    <input type="email" name="email"  class="form-control" placeholder="Enter your Email..." required="">
 				                </div>
 				                <div class="form-group">
 				                    <label for="password">Password</label>

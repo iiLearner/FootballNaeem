@@ -2,7 +2,7 @@
     //define page title
     $title = 'Shop';
     require('header.php'); 
-
+    require("navbar.php");
 ?><!DOCTYPE html>
 <html lang="zxx">
 <body>

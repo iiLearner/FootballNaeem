@@ -2,8 +2,9 @@
     //define page title
     $title = 'Tennis';
     require('header.php'); 
-
-?><!DOCTYPE html>
+    require("navbar.php");
+?>
+<!DOCTYPE html>
 <html lang="zxx">
 <body>
     <!-- Header / End -->

@@ -1,8 +1,9 @@
  <?php 
-    //define page title
+     //define page title
     $title = 'Atletica';
-    require('header.php'); 
-
+    require('header.php');
+    require("navbar.php");  
+   
 ?>
 <!DOCTYPE html>
 <html lang="zxx">

@@ -2,6 +2,7 @@
     //define page title
     $title = 'Shop Basketball';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

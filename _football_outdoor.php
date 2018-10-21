@@ -2,6 +2,7 @@
     //define page title
     $title = 'Calcio Outdoor';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

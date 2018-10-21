@@ -2,6 +2,7 @@
     //define page title
     $title = 'Calcio Indoor';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

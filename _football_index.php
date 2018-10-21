@@ -2,7 +2,8 @@
   <?php 
     //define page title
     $title = 'Camerino Sports Center';
-    require('header.php'); 
+    require('header.php');
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

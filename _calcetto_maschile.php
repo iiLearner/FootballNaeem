@@ -2,6 +2,7 @@
     //define page title
     $title = 'Calcetto Maschile';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

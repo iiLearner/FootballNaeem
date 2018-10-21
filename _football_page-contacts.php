@@ -2,6 +2,7 @@
     //define page title
     $title = 'Contatti';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>

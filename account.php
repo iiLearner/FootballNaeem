@@ -1,20 +1,11 @@
 <?php 
-  session_start(); 
-
+  require('header.php');
   if (!isset($_SESSION['username'])) {
-    $_SESSION['msg'] = "You must log in first";
     header('location: login.php');
   }
-  if (isset($_GET['logout'])) {
-    session_destroy();
-    unset($_SESSION['username']);
-    header("location: login.php");
-  }
-?>
-<?php 
+  require("navbar.php");  
     //define page title
-    $title = 'Account';
-    require('header.php'); 
+    $title = 'Account'; 
 
 ?>
 <!DOCTYPE html>
@@ -68,25 +59,79 @@
             </div>
             <!-- Account Navigation / End -->
           </div>
-         <div class="col-md-8">
-        <!-- notification message -->
-        <?php if (isset($_SESSION['success'])) : ?>
-        <div class="error success" >
-          <h3>
-            <?php 
-            echo $_SESSION['success']; 
-            unset($_SESSION['success']);
-            ?>
-          </h3>
-            </div>
-            <?php endif ?>
+           <div class="col-md-8">
 
-              <!-- logged in user information -->
-              <?php  if (isset($_SESSION['username'])) : ?>
-                <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong></p>
-                <p> <a href="index.php?logout='1'" style="color: red;">logout</a> </p>
-              <?php endif ?>
-    </div>
+            <!-- Personal Information -->
+            <div class="card card--lg">
+              <div class="card__header">
+                <h4>Personal Information</h4>
+              </div>
+              <div class="card__content">
+                <form action="#" class="df-personal-info">
+                  <div class="form-group form-group--upload">
+                    <div class="form-group__avatar">
+                      <img src="assets/images/football/samples/avatar-empty.png" alt="">
+                      <div class="form-group__label">
+                        <h6>Profile Photo</h6>
+                        <span>40x40 min size</span>
+                      </div>
+                    </div>
+                    <div class="form-group__upload">
+                      <label class="btn btn-default btn-xs btn-file">
+                        Upload Image <input type="file" style="display: none;">
+                      </label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-email">Email <span class="required">*</span></label>
+                        <input type="email" class="form-control" value="" name="account-email" id="account-email" placeholder="eric_rodgers@yourmail.com">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-username">Username <span class="required">*</span></label>
+                        <input type="text" class="form-control" value="" name="account-username" id="account-username" placeholder="Your Username here...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-password">Change Password</label>
+                        <input type="password" class="form-control" value="" name="account-password" id="account-password" placeholder="**********">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-password-repeat">Repeat Password</label>
+                        <input type="password" class="form-control" value="" name="account-password-repeat" id="account-password-repeat" placeholder="**********">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-first-name">First Name</label>
+                        <input type="text" class="form-control" value="" name="account-first-name" id="account-first-name" placeholder="Eric">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                        <label for="account-last-name">Last Name</label>
+                        <input type="text" class="form-control" value="" name="account-last-name" id="account-last-name" placeholder="Rodgers">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group--submit">
+                    <button type="submit" class="btn btn-primary-inverse btn-lg btn-block">See all the changes</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Personal Information / End -->
+          </div>
         </div>
       </div>
     </div>

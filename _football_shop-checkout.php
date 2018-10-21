@@ -2,6 +2,7 @@
     //define page title
     $title = 'Checkout';
     require('header.php'); 
+    require("navbar.php");
 
 ?>
 <!DOCTYPE html>
