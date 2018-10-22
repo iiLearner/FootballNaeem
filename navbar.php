@@ -27,8 +27,8 @@
               echo 
             '<li class="nav-account__item"><a href="registrati.php#header">Register</a></li>';
             ?>
-            <li class="nav-account__item nav-account__item--wishlist"><a href="_football_shop-wishlist.php#header">Wishlist <span class="highlight">8</span></a></li>
-            <li class="nav-account__item"><a href="#">Currency: <span class="highlight">EUR</span></a></li>
+           
+          
             <li class="nav-account__item"><a href="#">Language: <span class="highlight">EN</span></a></li>
             <?php if(isset($_SESSION["username"]))
             {
@@ -66,97 +66,57 @@
             </li>
             <li class="info-block__item info-block__item--shopping-cart">
               <a href="#" class="info-block__link-wrapper">
-                <div class="df-icon-stack df-icon-stack--bag">
-                  <svg role="img" class="df-icon df-icon--bag">
-                    <use xlink:href="assets/images/icons-basket.svg#bag"/>
-                  </svg>
-                  <svg role="img" class="df-icon df-icon--bag-handle">
-                    <use xlink:href="assets/images/icons-basket.svg#bag-handle"/>
-                  </svg>
-                </div>
-                <h6 class="info-block__heading">Your Bag (3 items)</h6>
-                <span class="info-block__cart-sum">€84,00</span>
+                <h6 class="info-block__heading">Quick contact List</h6>
+                <span class="info-block__cart-sum">Administration</span>
               </a>
-  
              <!-- Dropdown Shopping Cart -->
               <ul class="header-cart">
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.php#header">
-                      <img src="assets/images/samples/cart-sm-1.jpg" alt="">
+                    <a>
+                      <img src="assets/images/football/samples/administrator.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Sundown Sneaker</a></h5>
-                    <span class="header-cart__product-cat">Sneakers</span>
-                    <div class="header-cart__product-ratings">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star empty"></i>
-                    </div>
+                    <h5 class="header-cart__product-name"><a>Administrator 1</a></h5>
+                    <span class="header-cart__product-cat">Commercial</span>
                     <div class="header-cart__product-sum">
-                      <span class="header-cart__product-price">€28.00</span> x <span class="header-cart__product-count">1</span>
+                      <span class="header-cart__product-price">Email</span>: <span class="header-cart__product-count">commercial@sportscenter.com</span>
                     </div>
-                    <div class="fa fa-times header-cart__close"></div>
                   </div>
                 </li>
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.php#header">
-                      <img src="assets/images/samples/cart-sm-2.jpg" alt="">
+                    <a>
+                      <img src="assets/images/football/samples/administrator.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Atlantik Sneaker</a></h5>
-                    <span class="header-cart__product-cat">Sneakers</span>
-                    <div class="header-cart__product-ratings">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                    </div>
+                    <h5 class="header-cart__product-name"><a>Administrator 2</a></h5>
+                    <span class="header-cart__product-cat">Technical</span>
                     <div class="header-cart__product-sum">
-                      <span class="header-cart__product-price">€30.00</span> x <span class="header-cart__product-count">1</span>
+                      <span class="header-cart__product-price">Email</span>: <span class="header-cart__product-count">technical@sportscenter.com</span>
                     </div>
-                    <div class="fa fa-times header-cart__close"></div>
-                  </div>
                 </li>
                 <li class="header-cart__item">
                   <figure class="header-cart__product-thumb">
-                    <a href="_football_shop-product.php#header">
-                      <img src="assets/images/samples/cart-sm-2.jpg" alt="">
+                    <a>
+                      <img src="assets/images/football/samples/administrator.jpg" alt="">
                     </a>
                   </figure>
                   <div class="header-cart__inner">
-                    <h5 class="header-cart__product-name"><a href="_football_shop-product.php#header">Aquarium Sneaker</a></h5>
-                    <span class="header-cart__product-cat">Sneakers</span>
-                    <div class="header-cart__product-ratings">
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star"></i>
-                      <i class="fa fa-star empty"></i>
-                      <i class="fa fa-star empty"></i>
-                    </div>
+                    <h5 class="header-cart__product-name"><a>Administrator 3</a></h5>
+                    <span class="header-cart__product-cat">Help Desk</span>
                     <div class="header-cart__product-sum">
-                      <span class="header-cart__product-price">€26.00</span> x <span class="header-cart__product-count">1</span>
+                      <span class="header-cart__product-price">Email</span>: <span class="header-cart__product-count">info@sportscenter.com</span>
                     </div>
-                    <div class="fa fa-times header-cart__close"></div>
                   </div>
                 </li>
-                <li class="header-cart__item header-cart__item--subtotal">
-                  <span class="header-cart__subtotal">Cart Subtotal</span>
-                  <span class="header-cart__subtotal-sum">€84.00</span>
-                </li>
-                <li class="header-cart__item header-cart__item--action">
-                  <a href="_football_shop-cart.php#header" class="btn btn-default btn-block">Go to Cart</a>
-                  <a href="_football_shop-checkout.php#header" class="btn btn-primary-inverse btn-block">Checkout</a>
+                <li class="header-cart__item">
+                  <a href="contact.php#header" class="btn btn-default btn-block">Contact Us</a>
                 </li>
               </ul>
               <!-- Dropdown Shopping Cart / End -->
-  
             </li>
           </ul>
   
@@ -278,18 +238,6 @@
                       </div>
                     </div>
                   </div>
-                </li>
-                 <li class=""><a href="_football_shop-grid.php#header">Shop</a>
-                  <ul class="main-nav__sub">
-                    <li><a href="_football_shop.php#header">Football</a></li>
-                    <li><a href="_tennis_shop.php#header">Tennis</a></li>
-                    <li><a href="_yoga_shop.php#header">Yoga</a></li>
-                    <li><a href="_squash_shop.php#header">Squash</a></li>
-                    <li><a href="_swimming_shop.php#header">Swimming Pool</a></li>
-                    <li><a href="_volley_shop.php#header">Volleyball</a></li>
-                    <li><a href="_basketball_shop.php#header">Basketbal</a></li>
-                    <li><a href="_football_shop-login.php#header">Cart</a></li>
-                  </ul>
                 </li>
                  <li class=""><a href="#">Gallery</a>
                   <ul class="main-nav__sub">
